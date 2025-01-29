@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+table,
+.mat-table {
+  box-shadow: none;
+}
+mat-paginator {
+  background-color: transparent;
+  width: 100%;
+}

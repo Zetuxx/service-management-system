@@ -1,0 +1,11 @@
+header {
+  margin: auto;
+  width: 120rem;
+  max-width: 100%;
+  border-radius: 16px;
+}
+button {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}

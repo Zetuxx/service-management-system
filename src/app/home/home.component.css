@@ -1,0 +1,112 @@
+main {
+  margin: auto;
+  width: 120rem;
+  max-width: 100%;
+}
+.table-container {
+  border-radius: 16px;
+  background-color: white;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+table,
+.mat-table {
+  box-shadow: none;
+}
+mat-paginator {
+  background-color: transparent;
+  width: 100%;
+}
+
+tr.detail-row {
+  height: 0;
+}
+
+.element-row td {
+  border-bottom-width: 0;
+}
+
+.element-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.element-symbol {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.element-description {
+  padding: 16px;
+}
+
+.element-description-attribution {
+  opacity: 0.5;
+}
+.tabs {
+  width: 100%;
+  background-color: lightgrey;
+
+  border-radius: 16px;
+}
+.tabs-table {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 16px;
+}
+.tabs-table::after {
+  overflow: hidden;
+}
+mat-tab-group {
+  overflow: hidden;
+}
+
+.tabs-title {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-weight: 500;
+  gap: 2rem;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.cointaner {
+  margin: 1rem 0;
+  display: flex;
+}
+.input-group {
+  width: 20rem;
+}
+.right {
+  margin-left: auto;
+}
+::ng-deep .mat-mdc-tab.mdc-tab.mdc-tab.mdc-tab--active {
+  background-color: #198754;
+  border-radius: 16px 0 16px 0;
+  font-weight: 900;
+}
+::ng-deep .mat-mdc-tab.mdc-tab.mdc-tab.mdc-tab--active .mdc-tab__text-label {
+  color: white;
+}
+::ng-deep .mdc-tab-indicator__content.mdc-tab-indicator__content--underline {
+  display: none;
+}
+.form-control::placeholder {
+  color: #ffffff;
+}
+.input-group .form-control {
+  border-right: none;
+}
+.button-container {
+  display: flex;
+}
